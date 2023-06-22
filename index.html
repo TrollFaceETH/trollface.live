@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column {
+            width: 100%;
+            padding: 5px;
+        }
+
+        @media screen and (min-width: 600px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            .column {
+                width: 33.3%;
+            }
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#pictures">Pictures</a>
+    <a href="#text-blocks">Text Blocks</a>
+    <a href="#cards">Cards</a>
+</div>
+
+<div id="pictures" class="row">
+    <div class="column">
+        <img src="your-image-link-1" alt="Troll face" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="your-image-link-2" alt="Troll face" style="width:100%">
+    </div>
+</div>
+
+<div id="text-blocks">
+    <h2>Your Heading Here</h2>
+    <p>Some text about your meme token...</p>
+    <p>More text...</p>
+</div>
+
+<div id="cards" class="row">
+    <div class="column">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>Some text...</p>
+            <p>Some other text...</p>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>Some text...</p>
+            <p>Some other text...</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
