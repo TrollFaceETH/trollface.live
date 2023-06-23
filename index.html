@@ -2,77 +2,387 @@
 <html>
 <head>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 
     <style>
         .card {
             margin-bottom: 16px;
         }
+
+        .btn {
+            margin-right: 16px;
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Troll Face Token</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<script>
+    function scroll() {
+        window.scrollTo()
+    }
+</script>
+<nav class="navbar navbar-expand-lg bg-dark  mb-5" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">$TROLLFACE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01"
+                aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#pictures">Pictures</a>
+                    <a class="btn btn-outline-warning" href="#home">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#text-blocks">Text Blocks</a>
+                    <a class="btn btn-outline-primary" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#cards">Cards</a>
+                    <a class="btn btn-outline-secondary" href="#tokenomics">tokenomics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success" href="#how-to-buy">how to buy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-light" href="#contact">contact</a>
                 </li>
             </ul>
         </div>
-    </nav>
-
-    <div id="pictures" class="container mt-4">
+    </div>
+</nav>
+<div class="container">
+    <div class="page-header mb-5" id="home">
         <div class="row">
-            <div class="col-sm">
-                <img src="your-image-link-1" class="img-fluid" alt="Responsive image">
+            <div class="col-2">
+                <img src="static/1.png" alt="Troll Face Meme King" class="img-fluid w-100">
             </div>
-            <div class="col-sm">
-                <img src="your-image-link-2" class="img-fluid" alt="Responsive image">
+            <div class="col-10">
+                <h1>$TROLLFACE</h1>
+                <p class="lead">One and only true King of Memes.</p>
+                <p class="lead">
+                    Troll Face is the ultimate meme coin on the Ethereum blockchain. It's built for fairness, with all its liquidity locked into
+                    the Uniswap V2 Router contract. This makes the coin always available and keeps its price stable.</p>
+
+                <p class="lead">Troll Face doesn't have an owner, which means that no single person or entity can make decisions or changes to the
+                    coin.
+                    Everyone is welcome to join the Troll Face community, and there are no blacklists.</p>
+
+                <p class="lead">Noone can mint more Troll Face tokens, so the ones that are out there can't be devalued by a sudden increase in
+                    supply.
+                    This scarcity makes each token potentially more valuable over time.</p>
+
+                <p class="lead">Troll Face is deflationary, meaning its supply naturally goes down over time. Because all its liquidity is locked in
+                    the
+                    Uniswap V2 router contract, trading commissions are also unreachable. This means that with every trade, the number of
+                    tokens in circulation decreases, which can increase the value of the remaining tokens.</p>
+
+                <p class="lead">Simply put, Troll Face is a meme coin done right. It's fair, transparent, and built for long-term growth. Jump in and
+                    be part
+                    of the fun!</p>
             </div>
         </div>
     </div>
 
-    <div id="text-blocks" class="container mt-4">
-        <h2>Your Heading Here</h2>
-        <p>Some text about your meme token...</p>
-        <p>More text...</p>
-    </div>
-
-    <div id="cards" class="container mt-4">
+    <!-- Typography
+    ================================================== -->
+    <div class="bs-docs-section">
         <div class="row">
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1 id="about">About</h1>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+        </div>
+
+        <!-- Headings -->
+        <div class="row mb-2">
+            <div class="col">
+                <div class="container d-flex justify-content-center align-items-center">
+                    <img src="static/3.png" alt="No Dogs, Nog Frogs, Only Trolls, Only Lols" class="img-fluid w-75">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="bs-component">
+                    <p class="lead"><b>$TROLLFACE</b> rofled over the chaos and garbage produced by other memecoins. While the world played a game of
+                        hot
+                        potato with countless derivative tokens like ShibaElonDogeCumPussyTurboAssFlokiMoonInu, <b>$TROLLFACE</b> waited. The era
+                        of Frogs, Dogs, Elon tokens is over.</p>
+                    <p class="lead">Now, it's time for Troll Face, the world's most renowned meme, to take its rightful spot as king of all memecoins.
+                        Troll Face is here to revive the true spirit of memecoins.</p>
+                    <p class="lead">Launched stealthily with no presale, no airdrops, no taxes, LP locked in and the contract abandoned, <b>$TROLLFACE</b> is a
+                        token that truly belongs to the community, created to reign forever.
+                        Powered solely by the raw energy of memes, <b>$TROLLFACE</b> is here to guide you. Welcome to the age of Trolls.</p>
+
+                </div>
+            </div>
+            <!--            <div class="col">-->
+            <!--                <div class="bs-component">-->
+            <!--                    <h2>Emphasis classes</h2>-->
+            <!--                    <p class="text-primary">.text-primary</p>-->
+            <!--                    <p class="text-primary-emphasis">.text-primary-emphasis</p>-->
+            <!--                    <p class="text-secondary">.text-secondary</p>-->
+            <!--                    <p class="text-secondary-emphasis">.text-secondary-emphasis</p>-->
+            <!--                    <p class="text-success">.text-success</p>-->
+            <!--                    <p class="text-success-emphasis">.text-success-emphasis</p>-->
+            <!--                    <p class="text-danger">.text-danger</p>-->
+            <!--                    <p class="text-danger-emphasis">.text-danger-emphasis</p>-->
+            <!--                    <p class="text-warning">.text-warning</p>-->
+            <!--                    <p class="text-warning-emphasis">.text-warning-emphasis</p>-->
+            <!--                    <p class="text-info">.text-info</p>-->
+            <!--                    <p class="text-info">.text-info-emphasis</p>-->
+            <!--                    <p class="text-light">.text-light</p>-->
+            <!--                    <p class="text-light">.text-light-emphasis</p>-->
+            <!--                    <p class="text-dark">.text-dark</p>-->
+            <!--                    <p class="text-dark">.text-dark-emphasis</p>-->
+            <!--                    <p class="text-body">.text-body</p>-->
+            <!--                    <p class="text-body">.text-body-emphasis</p>-->
+            <!--                    <p class="text-body-secondary">.text-body-secondary</p>-->
+            <!--                    <p class="text-body-tertiary">.text-body-tertiary</p>-->
+
+            <!--                </div>-->
+            <!--            </div>-->
+        </div>
+
+        <!-- Blockquotes -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 id="type-blockquotes">Blockquotes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="bs-component">
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </figcaption>
+                    </figure>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bs-component">
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </figcaption>
+                    </figure>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bs-component">
+                    <figure class="text-end">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </figcaption>
+                    </figure>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js
-    </body>
+    <!-- Containers
+    ================================================== -->
+    <div class="bs-docs-section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1 id="containers">Containers</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>List groups</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="bs-component">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
+                            Cras justo odio
+                            <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                            Dapibus ac facilisis in
+                            <span class="badge bg-primary rounded-pill">2</span>
+                        </li>
+                        <li class="list-group-item list-group-item-success d-flex justify-content-between align-items-center">
+                            Morbi leo risus
+                            <span class="badge bg-primary rounded-pill">1</span>
+                        </li>
+                        <li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
+                            Cras justo odio
+                            <span class="badge bg-primary rounded-pill">5</span>
+                        </li>
+                        <li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-center">
+                            Dapibus ac facilisis in
+                            <span class="badge bg-primary rounded-pill">4</span>
+                        </li>
+                        <li class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center">
+                            Morbi leo risus
+                            <span class="badge bg-primary rounded-pill">9</span>
+                        </li>
+                        <li class="list-group-item list-group-item-light d-flex justify-content-between align-items-center">
+                            Morbi leo risus
+                            <span class="badge bg-primary rounded-pill">8</span>
+                        </li>
+                        <li class="list-group-item list-group-item-dark d-flex justify-content-between align-items-center">
+                            Morbi leo risus
+                            <span class="badge bg-primary rounded-pill">0</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <h2>Cards</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bs-component">
+                        <div class="card border-primary" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-secondary mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Secondary card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-success mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Success card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-danger mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Danger card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-warning mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Warning card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-info mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Info card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-light mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Light card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Dark card title</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--            <div class="col-lg-4">-->
+                <!--                <div class="bs-component">-->
+                <!--                    <div class="card mb-3">-->
+                <!--                        <h3 class="card-header">Card header</h3>-->
+                <!--                        <div class="card-body">-->
+                <!--                            <h5 class="card-title">Special title treatment</h5>-->
+                <!--                            <h6 class="card-subtitle text-muted">Support card subtitle</h6>-->
+                <!--                        </div>-->
+                <!--                        <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200"-->
+                <!--                             aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice"-->
+                <!--                             viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">-->
+                <!--                            <rect width="100%" height="100%" fill="#868e96"></rect>-->
+                <!--                            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>-->
+                <!--                        </svg>-->
+                <!--                        <div class="card-body">-->
+                <!--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <!--                        </div>-->
+                <!--                        <ul class="list-group list-group-flush">-->
+                <!--                            <li class="list-group-item">Cras justo odio</li>-->
+                <!--                            <li class="list-group-item">Dapibus ac facilisis in</li>-->
+                <!--                            <li class="list-group-item">Vestibulum at eros</li>-->
+                <!--                        </ul>-->
+                <!--                        <div class="card-body">-->
+                <!--                            <a href="#" class="card-link">Card link</a>-->
+                <!--                            <a href="#" class="card-link">Another link</a>-->
+                <!--                        </div>-->
+                <!--                        <div class="card-footer text-muted">-->
+                <!--                            2 days ago-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                    <div class="card">-->
+                <!--                        <div class="card-body">-->
+                <!--                            <h4 class="card-title">Card title</h4>-->
+                <!--                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>-->
+                <!--                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <!--                            <a href="#" class="card-link">Card link</a>-->
+                <!--                            <a href="#" class="card-link">Another link</a>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--            </div>-->
+            </div>
+        </div>
+
+
+        <footer id="footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Made by <a href="https://thomaspark.co/">Thomas Park</a>.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
